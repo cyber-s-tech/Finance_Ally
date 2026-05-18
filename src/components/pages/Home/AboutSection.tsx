@@ -14,13 +14,13 @@ const AboutSection = () => {
     ];
 
     return (
-        <section className="relative max-w-[1440px] mx-auto py-16 px-6 md:px-8 lg:px-12 xl:px-[70px] bg-white">
-             <div
-    className="absolute inset-0 bg-cover bg-center opacity-5"
-    style={{
-      backgroundImage: "url('./about-banner.jpg')",
-    }}
-  ></div>
+        <section className="relative max-w-[1440px] mx-auto py-16 px-5 md:px-8 lg:px-12 xl:px-[70px] bg-white">
+            <div
+                className="absolute inset-0 bg-cover bg-center opacity-5"
+                style={{
+                    backgroundImage: "url('./about-banner.jpg')",
+                }}
+            ></div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <div className="relative group overflow-bottom-hidden">
                     <div className="rounded-lg">
@@ -35,9 +35,9 @@ const AboutSection = () => {
 
                             {/* 3. The Content Div (Teal background) */}
                             <div className="bg-[#3A9B94] text-white px-4 py-2 pb-6 rounded-md max-w-[190px]">
-                                <h2 className="text-[60px] font-bold leading-none">30+</h2>
+                                <h2 className="text-[30px] md:text-[60px] font-bold leading-none">30+</h2>
                                 <p className="mt-2 text-sm leading-snug">
-                                    Years Bookkeeping Experience
+                                    Years Bookkeeping <br className='block md:hidden' /> Experience
                                 </p>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const AboutSection = () => {
                         Amy Is The Founder Of FinanZAlly™, A Whole Finance Support Firm Created For
                         Business Owners And Family Offices Who Need More Than Basic Bookkeeping.
                         As Your Finance Ally,
-                    </p>        
+                    </p>
 
                     {/* Checklist */}
                     <ul className="grid grid-cols-1 gap-y-1 lg:gap-y-3">
@@ -79,7 +79,7 @@ const AboutSection = () => {
                 </div>
 
             </div>
-            
+
         </section>
     );
 };
