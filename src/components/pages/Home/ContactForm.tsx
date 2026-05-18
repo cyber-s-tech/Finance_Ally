@@ -132,7 +132,7 @@ useEffect(() => {
           {/* HEADING */}
           <div className="mb-8">
             <div className="flex flex-col items-start gap-3 mb-2">
-                  <div className="w-10 h-[2px] bg-[#FFAC00]" />
+                  <div className="w-10 h-[2px] bg-[#FFAC00] pulse-line" />
                   <p className="text-md md:text-xl text-[#FFAC00] italic font-highlight font-bold">
                     Contact Us
                   </p>

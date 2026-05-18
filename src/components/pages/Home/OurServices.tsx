@@ -37,7 +37,7 @@ const OurServices = () => {
         
         {/* Small Heading */}
         <div className="flex items-center gap-3 mb-5">
-          <div className="w-10 h-[2px] bg-[#f4a261]"></div>
+          <div className="w-10 h-[2px] bg-[#f4a261] pulse-line"></div>
 
           <span className="font-highlight italic text-[#F4A261] text-md md:text-xl xl:text-2xl font-bold">
             Our Services

@@ -28,7 +28,7 @@ export const HeroBanner = () => {
         </div>
         <div className="w-full text-center flex flex-col items-center">
           <div className="flex items-center gap-2 mb-4">
-            <span className="h-[1px] w-8 bg-[#F4A261]"></span>
+            <span className="h-[1px] w-8 bg-[#F4A261] pulse-line"></span>
             <span className="text-[#F4A261] text-[20px] font-highlight font-bold italic">Whole Finance Support</span>
           </div>
           <h1 className=" text-[24px] md:text-[32px] lg:text-[42px] xl:text-[62px] font-heading font-bold text-[#1A2B32] leading-tight">

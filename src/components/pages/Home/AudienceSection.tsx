@@ -94,7 +94,7 @@ export default function AudienceSection() {
 
           {/* Left Side: Content */}
           <div className="flex flex-col ">
-            <div className="w-12 h-[2px] bg-[#F4A261] mb-2 lg:mb-[14px]" />
+            <div className="w-12 h-[2px] bg-[#F4A261] mb-2 lg:mb-[14px] pulse-line" />
             <span className="font-highlight italic text-[#F4A261] text-md md:text-xl xl:text-2xl font-bold">Fractional CFO</span>
 
             <h2 className="text-2xl  xl:text-[38px] font-bold text-[#1A2B32] mt-2 mb-3 leading-tight font-heading">
